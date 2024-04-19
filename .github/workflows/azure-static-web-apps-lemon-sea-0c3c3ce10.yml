@@ -46,7 +46,7 @@ jobs:
         with:
           node-version: 18.17.x
           cache: 'npm'
-      - run: cd AstroAuth
+      - run: cd .\AstroAuth\
       - run: npm install
       - run: npm run build -mode production
       - name: Build And Deploy
