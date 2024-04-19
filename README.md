@@ -1,4 +1,4 @@
-# Shared Resources from agramont.net
+# Agramont.net Blog Library
 
 Repo for scripts, code, content, etc. that are referenced in Conrad Agramonts blog. 
 
