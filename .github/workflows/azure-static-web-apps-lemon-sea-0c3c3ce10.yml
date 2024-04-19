@@ -21,10 +21,10 @@ on:
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-  APP_LOCATION: "/AstroAuth/dist" # location of your client code
+  APP_LOCATION: "/dist" # location of your client code
   # API_LOCATION: "api" # location of your api source code - optional
-  APP_ARTIFACT_LOCATION: "AstroAuth/dist" # location of client code build output
-  OUTPUT_LOCATION: "AstroAuth/dist" # location of client code build output
+  APP_ARTIFACT_LOCATION: "dist" # location of client code build output
+  OUTPUT_LOCATION: "/dist" # location of client code build output
   AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_LEMON_SEA_0C3C3CE10 }} # secret containing deployment token for your static web app
 
 permissions:
@@ -46,7 +46,7 @@ jobs:
         with:
           node-version: 18.17.x
           cache: 'npm'
-      - run: cd .\AstroAuth\
+          cache-dependency-path: AstroAuth/package-lock.json
       - run: npm install
       - run: npm run build -mode production
       - name: Build And Deploy
