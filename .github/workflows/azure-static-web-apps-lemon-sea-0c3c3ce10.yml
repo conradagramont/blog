@@ -46,6 +46,7 @@ jobs:
         with:
           node-version: 18.17.x
           cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
       - run: npm install ./AstroAuth  
       - run: npm --prefix ./AstroAuth run build -mode production
       - name: Build And Deploy
