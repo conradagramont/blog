@@ -1,6 +1,6 @@
 # Using Azure Functions with Astro and Entra ID Authentication
 
-![AstroFuncBall Pic](/AstroFuncBall/public/AstroFuncBall.png)
+![AstroFuncBall Pic](./AstroFuncBall/public/AstroFuncBall.png)
 
 This sample project is the output of a blog which explains how to use Azure Functions with Entra ID and Astro as the static site generator.
 
