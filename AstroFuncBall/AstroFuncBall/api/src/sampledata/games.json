@@ -1,0 +1,815 @@
+{
+    "copyright": "Copyright 2024 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+    "totalItems": 11,
+    "totalEvents": 0,
+    "totalGames": 11,
+    "totalGamesInProgress": 1,
+    "dates": [
+        {
+            "date": "2024-04-22",
+            "totalItems": 11,
+            "totalEvents": 0,
+            "totalGames": 11,
+            "totalGamesInProgress": 1,
+            "games": [
+                {
+                    "gamePk": 745757,
+                    "gameGuid": "9474994f-e7a6-4209-8262-46554c243930",
+                    "link": "/api/v1.1/game/745757/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-22T17:05:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "L"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 8,
+                                "losses": 14,
+                                "pct": ".364"
+                            },
+                            "score": 2,
+                            "team": {
+                                "id": 133,
+                                "name": "Oakland Athletics",
+                                "link": "/api/v1/teams/133"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 15,
+                                "losses": 7,
+                                "pct": ".682"
+                            },
+                            "score": 0,
+                            "team": {
+                                "id": 147,
+                                "name": "New York Yankees",
+                                "link": "/api/v1/teams/147"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 3313,
+                        "name": "Yankee Stadium",
+                        "link": "/api/v1/venues/3313"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/745757/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-745757-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 4,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 746723,
+                    "gameGuid": "f6ad97b9-f67b-4334-94a7-50dec332d18e",
+                    "link": "/api/v1.1/game/746723/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-22T22:40:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 14,
+                                "losses": 8,
+                                "pct": ".636"
+                            },
+                            "team": {
+                                "id": 143,
+                                "name": "Philadelphia Phillies",
+                                "link": "/api/v1/teams/143"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 12,
+                                "losses": 9,
+                                "pct": ".571"
+                            },
+                            "team": {
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 2602,
+                        "name": "Great American Ball Park",
+                        "link": "/api/v1/venues/2602"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/746723/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-746723-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 4,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 745519,
+                    "gameGuid": "b8dd75ac-e087-48e9-b5ed-28520119b519",
+                    "link": "/api/v1.1/game/745519/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-22T22:40:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 14,
+                                "losses": 6,
+                                "pct": ".700"
+                            },
+                            "team": {
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 11,
+                                "losses": 11,
+                                "pct": ".500"
+                            },
+                            "team": {
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 31,
+                        "name": "PNC Park",
+                        "link": "/api/v1/venues/31"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/745519/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-745519-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 4,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 745107,
+                    "gameGuid": "f19a94be-4a57-4e92-a4a3-b4621325f3fd",
+                    "link": "/api/v1.1/game/745107/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-22T22:50:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 12,
+                                "losses": 10,
+                                "pct": ".545"
+                            },
+                            "score": 0,
+                            "team": {
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 12,
+                                "losses": 11,
+                                "pct": ".522"
+                            },
+                            "score": 0,
+                            "team": {
+                                "id": 139,
+                                "name": "Tampa Bay Rays",
+                                "link": "/api/v1/teams/139"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 12,
+                        "name": "Tropicana Field",
+                        "link": "/api/v1/venues/12"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/745107/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-745107-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 747134,
+                    "gameGuid": "cc8ccd9d-0cba-426a-b1a0-83a49d4de31c",
+                    "link": "/api/v1.1/game/747134/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-22T23:20:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 6,
+                                "losses": 17,
+                                "pct": ".261"
+                            },
+                            "team": {
+                                "id": 146,
+                                "name": "Miami Marlins",
+                                "link": "/api/v1/teams/146"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 14,
+                                "losses": 6,
+                                "pct": ".700"
+                            },
+                            "team": {
+                                "id": 144,
+                                "name": "Atlanta Braves",
+                                "link": "/api/v1/teams/144"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 4705,
+                        "name": "Truist Park",
+                        "link": "/api/v1/venues/4705"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/747134/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-747134-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 746319,
+                    "gameGuid": "749bb722-69fd-43d7-9729-60f9b37f898c",
+                    "link": "/api/v1.1/game/746319/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-22T23:40:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 12,
+                                "losses": 10,
+                                "pct": ".545"
+                            },
+                            "team": {
+                                "id": 141,
+                                "name": "Toronto Blue Jays",
+                                "link": "/api/v1/teams/141"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 13,
+                                "losses": 9,
+                                "pct": ".591"
+                            },
+                            "team": {
+                                "id": 118,
+                                "name": "Kansas City Royals",
+                                "link": "/api/v1/teams/118"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 7,
+                        "name": "Kauffman Stadium",
+                        "link": "/api/v1/venues/7"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/746319/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-746319-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 4,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 745916,
+                    "gameGuid": "812a6728-8f94-4169-910b-81be0123db61",
+                    "link": "/api/v1.1/game/745916/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-22T23:40:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 18,
+                                "pct": ".143"
+                            },
+                            "team": {
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 7,
+                                "losses": 13,
+                                "pct": ".350"
+                            },
+                            "team": {
+                                "id": 142,
+                                "name": "Minnesota Twins",
+                                "link": "/api/v1/teams/142"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 3312,
+                        "name": "Target Field",
+                        "link": "/api/v1/venues/3312"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/745916/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-745916-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 4,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 745191,
+                    "gameGuid": "ccde3ee3-b191-4a0a-9ca2-7652802a01d4",
+                    "link": "/api/v1.1/game/745191/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-22T23:45:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 11,
+                                "losses": 12,
+                                "pct": ".478"
+                            },
+                            "team": {
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 9,
+                                "losses": 13,
+                                "pct": ".409"
+                            },
+                            "team": {
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 2889,
+                        "name": "Busch Stadium",
+                        "link": "/api/v1/venues/2889"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/745191/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-745191-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 746565,
+                    "gameGuid": "9c10bb02-1a52-4b23-b725-d31230e88b64",
+                    "link": "/api/v1.1/game/746565/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-23T00:40:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 12,
+                                "losses": 12,
+                                "pct": ".500"
+                            },
+                            "team": {
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 9
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 5,
+                                "losses": 17,
+                                "pct": ".227"
+                            },
+                            "team": {
+                                "id": 115,
+                                "name": "Colorado Rockies",
+                                "link": "/api/v1/teams/115"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 19,
+                        "name": "Coors Field",
+                        "link": "/api/v1/venues/19"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/746565/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-746565-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 4,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 746242,
+                    "gameGuid": "1c55bf65-4bc3-46f0-9213-4a24650a4edb",
+                    "link": "/api/v1.1/game/746242/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-23T01:38:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 14,
+                                "losses": 7,
+                                "pct": ".667"
+                            },
+                            "team": {
+                                "id": 110,
+                                "name": "Baltimore Orioles",
+                                "link": "/api/v1/teams/110"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 9,
+                                "losses": 13,
+                                "pct": ".409"
+                            },
+                            "team": {
+                                "id": 108,
+                                "name": "Los Angeles Angels",
+                                "link": "/api/v1/teams/108"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 1,
+                        "name": "Angel Stadium",
+                        "link": "/api/v1/venues/1"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/746242/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-746242-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 745351,
+                    "gameGuid": "3fb42c34-c159-42d3-bfb3-093e732f9a1d",
+                    "link": "/api/v1.1/game/745351/feed/live",
+                    "gameType": "R",
+                    "season": "2024",
+                    "gameDate": "2024-04-23T01:45:00Z",
+                    "officialDate": "2024-04-22",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 12,
+                                "losses": 9,
+                                "pct": ".571"
+                            },
+                            "team": {
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 10,
+                                "losses": 13,
+                                "pct": ".435"
+                            },
+                            "team": {
+                                "id": 137,
+                                "name": "San Francisco Giants",
+                                "link": "/api/v1/teams/137"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 2395,
+                        "name": "Oracle Park",
+                        "link": "/api/v1/venues/2395"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/745351/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-745351-2024-04-22",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        }
+    ]
+}

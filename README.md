@@ -19,3 +19,6 @@ Here is a helpful list of what I have here thus far.
 - Using Microsoft Entra Id EasyAuth with Astro and Azure Static Web App
   - Article: [https://agramont.net/blog/entra-id-easyauth-with-astro](https://agramont.net/blog/entra-id-easyauth-with-astro)
   - Location: [AstroAuth](./AstroAuth/README.md)
+- Using Azure Functions with Astro and Entra ID Authentication
+  - Article: [https://agramont.net/blog/astro-entra-auth-azure-functions](https://agramont.net/blog/astro-entra-auth-azure-functions)
+  - Location: [AstroFuncBall](./AstroAuth/README.md)
