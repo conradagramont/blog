@@ -1,0 +1,20 @@
+---
+import GraphLogin from '../graph/graphLogin.astro';
+---
+<header class="bg-white">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-2 lg:px-4" aria-label="Global">
+      <div class="flex flex-1">
+        <div class="flex gap-x-12">
+          <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+          <a href="/internal/" class="text-sm font-semibold leading-6 text-gray-900">Internal Apps</a>
+          <a href="/internal/meetings/" class="text-sm font-semibold leading-6 text-gray-900">Meetings</a>
+          <a href="/internal/search/" class="text-sm font-semibold leading-6 text-gray-900">Search OneDrive</a>
+          <a href="/internal/teams/" class="text-sm font-semibold leading-6 text-gray-900">Teams</a>
+        </div>
+      </div>
+      <div class="flex flex-1 justify-end">
+        <GraphLogin />        
+      </div>
+    </nav>    
+</header>
+  

@@ -1,0 +1,19 @@
+<script type="module" is:inline>
+    import {
+      registerMgtComponents,
+      Providers,
+      ProviderState,
+      Msal2Provider
+    } from "https://unpkg.com/@microsoft/mgt@4";
+    Providers.globalProvider = new Msal2Provider({ 
+        clientId: "5b4f7809-e123-4e37-a0d3-661687c0a3fd" ,
+        // scopes: ["user.read", "calendars.read", "Files.Read.All", "User.Read.All"],
+        scopes: ["user.read", "calendars.read", "Files.Read.All"],
+        authority: "https://login.microsoftonline.com/0611c2d5-52a3-4c87-83fc-81903228fa38",
+        redirectUri: "http://localhost:4321/",
+    });
+    registerMgtComponents();
+  </script>
+  <div id="main">
+    <mgt-login show-presence login-view="compact"></mgt-login>
+  </div>
