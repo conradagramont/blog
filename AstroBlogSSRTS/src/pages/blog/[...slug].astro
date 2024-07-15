@@ -1,0 +1,52 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import BlogPost from '../../layouts/BlogPost.astro';
+
+/* This was the orginal code from the template
+
+	export async function getStaticPaths() {
+		const posts = await getCollection('blog');
+		return posts.map((post) => ({
+			params: { slug: post.slug },
+			props: post,
+		}));
+	}
+	type Props = CollectionEntry<'blog'>;
+
+	const post = Astro.props;
+	const { Content } = await post.render();
+*/
+
+// This matches up with the [...slug].astro file name
+const { slug } = Astro.params;
+
+// Sample already had a collection called blog. We'll use that.
+const posts = await getCollection('blog');
+
+// based on the slug, we'll find the post
+const post = posts.find((post) => post.slug === slug);
+
+// If the post is not found, we'll redirect to a 404 page
+let Content = null;
+
+// If the post is found, we'll render the post and get the content
+if (post) 
+{
+	// it's possible because of the await that the post is null
+	const postRendered = await post?.render();
+	
+	// Once rendered, we'll get the content
+	Content = await postRendered?.Content;
+}
+else
+{
+	// If the post is not found, we'll redirect to a 404 page
+	return Astro.redirect("/404");
+}
+
+// Beyond the above, there was nothing else changed from the sample Astro blog template
+---
+
+<BlogPost {...post.data}>
+	<Content />
+</BlogPost>
