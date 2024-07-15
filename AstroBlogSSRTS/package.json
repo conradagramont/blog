@@ -1,0 +1,41 @@
+{
+  "name": "AstroBlogSSRTS",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "node": "npm install && astro build && nodemon dist/server/entry.mjs",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "../../**"
+    ],
+    "ignore": [
+      "../../vscode/**",
+      "../../dist/**",
+      "../../node_modules/**"
+    ],
+    "ext": "astro,js,json,mjs,md,mdx",
+    "events": {
+      "restart": "astro build"
+    }
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.8.1",
+    "@astrojs/mdx": "^3.1.2",
+    "@astrojs/node": "^8.3.2",
+    "@astrojs/rss": "^4.0.7",
+    "@astrojs/sitemap": "^3.1.6",
+    "astro": "^4.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
